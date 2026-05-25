@@ -1,0 +1,10 @@
+pyautogui
+opencv-python
+pillow
+keyboard
+mouse
+pyperclip
+pyyaml
+PyQt6
+playwright
+pyinstaller

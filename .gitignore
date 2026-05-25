@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 虚拟环境
+.venv/
+venv/
+
+# 打包产物
+build/
+dist/
+
+# IDE
+.idea/
+.vscode/
+
+# 运行时数据（不进仓库）
+logs/
+**/logs/*.log
+downloads/
+
+# 业务流程 YAML（公开示例仓库不带真实流程）
+config/
+
+# 浏览器 profile（含 cookie / 登录态，绝对不能上传）
+rpa_*_profile/
+*/rpa_*_profile/
+
+# 项目根的 UI 草稿
+rpa_helper_ui_mockup.jsx

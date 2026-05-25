@@ -1,0 +1,24 @@
+
+name: "门诊查询"
+
+steps:
+
+  - type: "click_image"
+    image: "images/query_menu.png"
+    timeout: 10
+    confidence: 0.8
+
+  - type: "wait"
+    seconds: 1
+
+  - type: "click_image"
+    image: "images/date_input.png"
+
+  - type: "input_text"
+    text: "2026-05-23"
+
+  - type: "click_image"
+    image: "images/query_button.png"
+
+  - type: "confirm"
+    message: "确认提交？"
